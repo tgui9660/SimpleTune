@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="graph3D"/>
+	<classpathentry kind="src" path="testing"/>
+	<classpathentry kind="src" path="utecEntity"/>
+	<classpathentry kind="src" path="loggerWorkings"/>
+	<classpathentry kind="src" path="loggerGUI"/>
+	<classpathentry kind="src" path="commCoordination"/>
+	<classpathentry kind="lib" path="libs/activation.jar"/>
+	<classpathentry kind="lib" path="libs/commons-logging-1.0.4.jar"/>
+	<classpathentry kind="lib" path="libs/Jama.jar"/>
+	<classpathentry kind="lib" path="libs/jep-2.4.1.jar"/>
+	<classpathentry kind="lib" path="libs/jsr173_1.0_api.jar"/>
+	<classpathentry kind="lib" path="libs/log4j-1.2.14.jar"/>
+	<classpathentry kind="lib" path="libs/logger_xml.jar"/>
+	<classpathentry kind="lib" path="libs/miglayout-3.6.2.jar"/>
+	<classpathentry kind="lib" path="libs/resolver.jar"/>
+	<classpathentry kind="lib" path="libs/xbean_xpath.jar"/>
+	<classpathentry kind="lib" path="libs/xbean.jar"/>
+	<classpathentry kind="lib" path="libs/xmlbeans-qname.jar"/>
+	<classpathentry kind="lib" path="libs/xmlpublic.jar"/>
+	<classpathentry kind="lib" path="libs/RXTXcomm.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="SimpleTuneJava/libs/rxtx/linux/x86_64"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.6.0_45"/>
+	<classpathentry kind="lib" path="libs/3D/j3dcore.jar"/>
+	<classpathentry kind="lib" path="libs/3D/j3dutils.jar"/>
+	<classpathentry kind="lib" path="libs/vecmath.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

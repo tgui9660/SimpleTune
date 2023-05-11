@@ -1,0 +1,13 @@
+package simpleTune.gui;
+
+import com.apple.eawt.Application;
+
+public class MacOSXCommandQuitApplication extends Application{
+	private SimpleTuneGUI stGUI = null;
+	
+	public MacOSXCommandQuitApplication(SimpleTuneGUI stGUI){
+		this.stGUI = stGUI;
+		
+		this.addApplicationListener(new MacOSXCommandQuitApplicationAdapter(this.stGUI));
+	}
+}

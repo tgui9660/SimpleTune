@@ -1,0 +1,11 @@
+<HTML>
+<HEAD>
+<TITLE>3D Graph</TITLE>
+</HEAD>
+<BODY>
+
+<APPLET CODE="JApplet1.class" WIDTH=500 HEIGHT=500>
+
+</APPLET>
+</BODY>
+</HTML>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="graph3D"/>
+	<classpathentry kind="src" path="testing"/>
+	<classpathentry kind="src" path="utecEntity"/>
+	<classpathentry kind="src" path="loggerWorkings"/>
+	<classpathentry kind="src" path="loggerGUI"/>
+	<classpathentry kind="src" path="commCoordination"/>
+	<classpathentry kind="src" path="commGUI"/>
+	<classpathentry kind="lib" path="libs/activation.jar"/>
+	<classpathentry kind="lib" path="libs/commons-logging-1.0.4.jar"/>
+	<classpathentry kind="lib" path="libs/Jama.jar"/>
+	<classpathentry kind="lib" path="libs/jaxb-api.jar"/>
+	<classpathentry kind="lib" path="libs/jaxb-impl.jar"/>
+	<classpathentry kind="lib" path="libs/jaxb-xjc.jar"/>
+	<classpathentry kind="lib" path="libs/jaxb1-impl.jar"/>
+	<classpathentry kind="lib" path="libs/jep-2.4.1.jar"/>
+	<classpathentry kind="lib" path="libs/jsr173_1.0_api.jar"/>
+	<classpathentry kind="lib" path="libs/log4j-1.2.14.jar"/>
+	<classpathentry kind="lib" path="libs/logger_xml.jar"/>
+	<classpathentry kind="lib" path="libs/miglayout-3.6.2.jar"/>
+	<classpathentry kind="lib" path="libs/resolver.jar"/>
+	<classpathentry kind="lib" path="libs/xbean_xpath.jar"/>
+	<classpathentry kind="lib" path="libs/xbean.jar"/>
+	<classpathentry kind="lib" path="libs/xmlbeans-qname.jar"/>
+	<classpathentry kind="lib" path="libs/xmlpublic.jar"/>
+	<classpathentry kind="lib" path="libs/RXTXcomm.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.launching.macosx.MacOSXType/JVM 1.6.0"/>
+	<classpathentry kind="lib" path="/Users/emorgan/Downloads/j3d-1_5_2-macosx/lib/ext/j3dcore.jar"/>
+	<classpathentry kind="lib" path="/Users/emorgan/Downloads/j3d-1_5_2-macosx/lib/ext/j3dutils.jar"/>
+	<classpathentry kind="lib" path="/Users/emorgan/Downloads/j3d-1_5_2-macosx/lib/ext/vecmath.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

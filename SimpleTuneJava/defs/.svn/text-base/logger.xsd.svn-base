@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="logger">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="protocols"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="protocols">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="protocol"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="protocol">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="parameters"/>
+        <xs:element ref="switches"/>
+        <xs:element ref="ecuparams"/>
+      </xs:sequence>
+      <xs:attribute name="baud" use="required" type="xs:integer"/>
+      <xs:attribute name="connect_timeout" use="required" type="xs:integer"/>
+      <xs:attribute name="databits" use="required" type="xs:integer"/>
+      <xs:attribute name="id" use="required" type="xs:NCName"/>
+      <xs:attribute name="parity" use="required" type="xs:integer"/>
+      <xs:attribute name="send_timeout" use="required" type="xs:integer"/>
+      <xs:attribute name="stopbits" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="parameters">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="parameter"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="parameter">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:choice>
+          <xs:element ref="address"/>
+          <xs:element ref="depends"/>
+        </xs:choice>
+        <xs:element ref="conversions"/>
+      </xs:sequence>
+      <xs:attribute name="desc" use="required"/>
+      <xs:attribute name="ecubit" type="xs:integer"/>
+      <xs:attribute name="ecubyteindex" type="xs:integer"/>
+      <xs:attribute name="id" use="required" type="xs:NCName"/>
+      <xs:attribute name="name" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="depends">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="ref"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ref">
+    <xs:complexType>
+      <xs:attribute name="parameter" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="switches">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="switch"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="switch">
+    <xs:complexType>
+      <xs:attribute name="bit" use="required" type="xs:integer"/>
+      <xs:attribute name="byte" use="required" type="xs:NMTOKEN"/>
+      <xs:attribute name="desc" use="required"/>
+      <xs:attribute name="id" use="required" type="xs:NCName"/>
+      <xs:attribute name="name" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ecuparams">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="ecuparam"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ecuparam">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="ecu"/>
+        <xs:element ref="conversions"/>
+      </xs:sequence>
+      <xs:attribute name="desc" use="required"/>
+      <xs:attribute name="id" use="required" type="xs:NCName"/>
+      <xs:attribute name="name" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ecu">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="address"/>
+      </xs:sequence>
+      <xs:attribute name="id" use="required" type="xs:NMTOKEN"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="address">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:NMTOKEN">
+          <xs:attribute name="length" type="xs:integer"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="conversions">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="conversion"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="conversion">
+    <xs:complexType>
+      <xs:attribute name="expr" use="required"/>
+      <xs:attribute name="format" use="required" type="xs:decimal"/>
+      <xs:attribute name="gauge_max" type="xs:decimal"/>
+      <xs:attribute name="gauge_min" type="xs:decimal"/>
+      <xs:attribute name="gauge_step" type="xs:decimal"/>
+      <xs:attribute name="storagetype" type="xs:NCName"/>
+      <xs:attribute name="units" use="required"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

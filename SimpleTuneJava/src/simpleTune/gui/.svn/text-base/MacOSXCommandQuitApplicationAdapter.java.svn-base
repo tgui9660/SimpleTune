@@ -1,0 +1,22 @@
+package simpleTune.gui;
+
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
+
+import com.apple.eawt.ApplicationAdapter;
+import com.apple.eawt.ApplicationEvent;
+
+public class MacOSXCommandQuitApplicationAdapter extends ApplicationAdapter {
+	private Log logger = LogFactory.getLog(getClass());
+	private SimpleTuneGUI stGUI = null;
+	
+	public MacOSXCommandQuitApplicationAdapter(SimpleTuneGUI stGUI){
+		this.stGUI = stGUI;
+	}
+	
+	public void handleQuit(ApplicationEvent e) {
+		logger.debug("mac osx event");
+		this.stGUI.stQuitApplicationDialog();
+	}
+
+}

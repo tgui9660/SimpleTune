@@ -1,0 +1,34 @@
+10
+
+dir
+91
+svn+ssh://media@killerbunny.no-ip.org/home/media/SVN/SimpleTuneJava/loggerWorkings/logger/dataSupplier
+svn+ssh://media@killerbunny.no-ip.org/home/media/SVN
+
+
+
+2009-07-10T02:42:56.133907Z
+90
+botman
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+6203f6eb-638f-49ed-b72c-87ab31f1127e
+
+impl
+dir
+
+interfaces
+dir
+

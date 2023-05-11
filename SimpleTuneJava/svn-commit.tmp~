@@ -1,0 +1,10 @@
+
+--This line, and those below, will be ignored--
+
+M    loggerWorkings/logger/dataSupplier/impl/ssm/SSMDataQueryTimerTask.java
+M    loggerWorkings/logger/dataSupplier/impl/ssm/SSMECUInitTimerTask.java
+M    loggerWorkings/logger/dataSupplier/impl/ssm/SSMLoggingSwitchTimerTask.java
+M    loggerWorkings/logger/dataSupplier/impl/ssm/SSMDataSupplier.java
+M    loggerWorkings/logger/dataSupplier/impl/ssm/SSMECUInit.java
+M    loggerWorkings/logger/dataSupplier/impl/ssm/SSMLoggingSwitchManager.java
+M    loggerWorkings/logger/dataSupplier/impl/ssm/SSMQueryQueue.java
