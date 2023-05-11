@@ -1,5 +1,6 @@
 # SimpleTune
-Subaru ROM Tuning and Logging Software
+Subaru ROM Tuning and Logging Software  
+
 Requires JRE 1.6
 
 
