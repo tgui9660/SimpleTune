@@ -11,6 +11,8 @@ Subaru ROM Tuning and Logging Software With UTEC integration
 * ROM / ECU XML support is based on the ECU flash XML specification. As this is an older tool, updates may need to be made to support newer XML schemas.
 * Logged data is saved as CSV. Data in these files can be overlaid on ROM tables using CSV params as table dimensions.
 * Prelim work done with memory resident relational table (saved to disk on close) which was to host all data collected for better historical data retrieval. Much todo!
+* Multipl ROMs can be opened.
+* Comparison GUI tool included to review changes between different ROMs. See how other tunes compare to yours!
 
 
 
