@@ -1,5 +1,5 @@
 # SimpleTune
-Subaru ROM Tuning and Logging Software With UTEC integration 
+Subaru / Mitsubishi ROM Tuning and Logging Software With UTEC integration 
 
 * Requires JRE 1.6
 * Various AFR sensors supported though mostly tested against UTEC AFR sensor. Wideband data can be combined in line with SSM logged OBD2 parameters.
