@@ -5,8 +5,8 @@ Subaru ROM Tuning and Logging Software With UTEC integration
 * Various AFR sensors supported though mostly tested against UTEC AFR sensor. Wideband data can be combined in line with SSM logged OBD2 parameters.
 * You'll need a usb-serial adapter for RS232 access to the UTEC. BAUD / Parity bits need to be set as in UTEC manual. You can test with telnet.
 * UTEC piggyback ECU tuning entity to support direct tuning of UTEC through SimpleTune.
-* New tuning entites can be created against the tuning entity interfaces in code. ROM / UTEC currenlty only supported. Same with logging.
-* OBD2 logging is requires an OpenPort 1.3* adapater. Not tested with later OpenPort 2.* and above.
+* New tuning entities can be created against the tuning entity interfaces in code. ROM / UTEC currently only supported. Same with logging.
+* OBD2 logging is requires an OpenPort 1.3* adapter. Not tested with later OpenPort 2.* and above.
 * SSM (Subaru extensions) OBD2 logging is supported. Remember that more data points logged, the slower the refresh rate! Take only what you need.
 * ROM / ECU XML support is based on the ECU flash XML specification. As this is an older tool, updates may need to be made to support newer XML schemas.
 * Logged data is saved as CSV. Data in these files can be overlaid on ROM tables using CSV params as table dimensions.
