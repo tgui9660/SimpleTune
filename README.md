@@ -1,7 +1,7 @@
 # SimpleTune
 Subaru / Mitsubishi ROM Tuning and Logging Software With UTEC integration 
 
-This is an automotive tuning platform that supports ROM editing, logging, data overlays, and statistics. Includes best fit curve 1D/2D data smoothing.
+This is an automotive tuning platform that supports ROM editing, logging, data overlays, and statistics. Includes best fit curve 1D/2D data smoothing, ROM comparison, and CSV log overlays.
 
 * Requires JRE 1.6
 * Various AFR sensors supported though mostly tested against UTEC AFR sensor. Wideband data can be combined in line with SSM logged OBD2 parameters.
