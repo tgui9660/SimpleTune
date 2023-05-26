@@ -30,6 +30,6 @@ Best fit curve data smoothing.
 ROM comparison tool to find changes in dimensionally equivalent tables.
 ![image](https://github.com/tgui9660/SimpleTune/assets/31426897/c6046c2d-0b73-4c5f-a27c-4bdc37a058a4)
 
-CSV data overlay.
+CSV data overlay.</br>
 ![image](https://github.com/tgui9660/SimpleTune/assets/31426897/57a47980-4557-4436-9fe2-02b445ce39cb)
 
