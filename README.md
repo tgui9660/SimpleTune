@@ -25,3 +25,9 @@ This is an automotive tuning platform that supports ROM editing, logging, data o
 Best fit curve data smoothing.
 ![image](https://github.com/tgui9660/SimpleTune/assets/31426897/a8b26350-23e7-4891-8e12-ff6548d45903)
 
+ROM comparison tool to find changes in dimensionally equivalent tables.
+![image](https://github.com/tgui9660/SimpleTune/assets/31426897/c6046c2d-0b73-4c5f-a27c-4bdc37a058a4)
+
+CSV data overlay.
+![image](https://github.com/tgui9660/SimpleTune/assets/31426897/57a47980-4557-4436-9fe2-02b445ce39cb)
+
