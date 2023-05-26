@@ -20,6 +20,8 @@ This is an automotive tuning platform that supports ROM editing, logging, data o
 
 
 ![ST_1](https://github.com/tgui9660/SimpleTune/assets/31426897/aa88e639-bcd4-4c42-be88-fec1286db4df)
+
+Complete OBD2 Subaru SSM protocol based logging.
 ![ST_2](https://github.com/tgui9660/SimpleTune/assets/31426897/5aeae797-673c-4acb-9b5b-fbf346cf8123)
 
 Best fit curve data smoothing.
